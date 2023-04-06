@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../triangle.css">
+    <title>Segitiga</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Mengihitung Luas Segitiga</h1>
+    </div>
+    <div class="container">
+        <form>
+            <input type="number" name="tinggi" id="tinggi" placeholder="Masukan Tinggi">
+            <input type="number" name="tinggi" id="alas" placeholder="Masukan Alas">
+        </form>
+        <button onclick="hitungLuas()">Hitung Luas</button>
+    </div>
+    <script src="../calculator.js"></script>
+
+    <div id="hasil">
+        <h3>Hasil Dan Cara Pengerjaan</h3>
+        <div class="hasilLuas">
+            <p>Total Hasil Penghitungan</p>
+            <p id="hasilHitung"></p>
+        </div>
+        <div class="pengerjaan">
+            <p>L = ½ x a x t</p>
+            <p>Dimana a = alas dan t = tinggi</p>
+            <p>a = <span id="alasItung"></span></p>
+            <p>t = <span id="tinggiItung"></span></p>
+        </div>
+    </div>
+</body>
+
+</html>
